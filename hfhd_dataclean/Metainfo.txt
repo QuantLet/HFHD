@@ -11,7 +11,7 @@ Keywords:         limit order book, pre-averaging, microstructure noise
 
 Author:           Chong Liang
 
-Submitted:        2016/06/17
+Submitted:        2017/09/11
 
 Output:           'The objective variable for 7 levels of limit order book across the 
 		   selected stocks.'
