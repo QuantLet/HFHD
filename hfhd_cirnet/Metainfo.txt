@@ -1,0 +1,15 @@
+
+Name of Quantlet: hfhd_cirnet
+
+Published in: 	  Bootstrapped Market Impact with Limit Order Books
+
+Description:      'hfhd_cirnet code plots the full-sample connectedness network.'
+
+
+Keywords:         limit order book, market impact, network, plot
+
+Author:           Shi Chen
+
+Submitted:        2017/09/11
+
+Output:           'The network graph of full-sample connectedness for the selected 			   trading day.'

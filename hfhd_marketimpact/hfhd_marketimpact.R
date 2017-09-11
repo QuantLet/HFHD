@@ -1,9 +1,7 @@
 rm(list=ls(all=T))
 graphics.off()
 
-setwd("~/Dropbox/memeda/hfhd/varplot/Parallel")
-
-#load("Brexit_Smooth_1min.RData")
+setwd("")
 
 ##20 step GIRF
 load("mydate.RData")
