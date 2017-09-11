@@ -1,0 +1,17 @@
+
+Name of Quantlet: hfhd_dataclean
+
+Published in: 	  Bootstrapped Market Impact with Limit Order Books
+
+Description:      'hfhd_dataclean code conducts pre-averaging estimation and match the 			   price and size intensity in a intermediate interval, solves the 
+             	   problems of microstructure noise and non-synchronicity.'
+
+
+Keywords:         limit order book, pre-averaging, microstructure noise
+
+Author:           Chong Liang
+
+Submitted:        2016/06/17
+
+Output:           'The objective variable for 7 levels of limit order book across the 
+		   selected stocks.'
