@@ -65,10 +65,12 @@ for(da in 1:length(res1)){
 graphics.off()
 
 #significant market impact
-myplot11(42,7)
+#myplot11(42,7)
 myplot11(14,7)
+mtext(mydate[14], side = 3, line = -1.25, outer = TRUE, font=2)
 myplot11(1,7)
-
+mtext(mydate[1], side = 3, line = -1.25, outer = TRUE, font=2)
 myplot11(40,8)
 myplot11(38,8)
+mtext(mydate[38], side = 3, line = -1.25, outer = TRUE, font=2)
 myplot11(34,8)

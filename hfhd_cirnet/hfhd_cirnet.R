@@ -11,7 +11,8 @@ myname = paste(na2, na1,sep="_")
 rm(coname, lobname, na1, na2)
 
 load("mydate.RData")
-load("fullconnectedness1n.RData")
+#load("fullconnectedness1n.RData")
+load("fullconnectedness5.RData")
 
 d1=20#15-20,21.06-28.06
 samp1 = conn1[[d1]]

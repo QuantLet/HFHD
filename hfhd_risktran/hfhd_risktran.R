@@ -34,7 +34,8 @@ myplot12 <- function(da, n1 ,n2, n3){
     m2 = n0[i]
     gi1 = day1[,-(1:3),m1]
     rownames(gi1)=myname
-    plot(gi1[m2,(1:31)], type="h", col="blue",lwd=2, axes=F, xlab="Horizon",ylab = myname[m2], main=myname[m1], ylim=c(-0.5,0.5))
+    plot(gi1[m2,(1:31)], type="h", col="blue",lwd=2, axes=F, 
+         xlab="Horizon",ylab = myname[m2], main=myname[m1], ylim=c(-0.15,0.2))
     points(gi1[m2,(1:31)])
     axis(1, 1:31, 0:30)
     axis(2, pos=1)
@@ -51,10 +52,15 @@ for(da in 1:length(res1)){
   mtext(mydate[da], side = 3, line = -1.25, outer = TRUE, font=2)
 }
 
+myplot12(1,1,2,3)
+myplot12(1,4,5,6)
+myplot12(1,7,8,9)
+mtext(mydate[1], side = 3, line = -1.25, outer = TRUE, font=2)
+
 myplot12(19,1,2,3)
 myplot12(39,1,2,3)
 myplot12(38,1,2,3)
-myplot12(16,1,2,3)
+myplot12(1,1,2,3)
 
 myplot12(16,4,5,6)
 myplot12(16,4,5,6)

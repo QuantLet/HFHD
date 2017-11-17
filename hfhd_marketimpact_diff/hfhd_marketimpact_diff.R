@@ -12,7 +12,7 @@ myname2 = paste(na2, na1,sep="_")
 myplot11 <- function(da, ny){
   day1=res1[[da]]
   m0 = 4*(ny-1) +1
-  par(mfrow=c(1,3))
+  #par(mfrow=c(1,3))
   for(i in 1:3){
     m1= m0+i
     gi1 = day1[,-(1:3),m1]
@@ -53,8 +53,8 @@ lines(myimp[3,], col="grey")
 #par(mfrow=c(3,3))
 #for(ny in 1:9){
 par(mfrow=c(1,3))
-#for(ny in 7:9){#for 3 financial stocks
-for(ny in 4:6){#for 3 technology
+for(ny in 7:9){#for 3 financial stocks
+#for(ny in 4:6){#for 3 technology
   f1=n1=NULL
   for(da in 1:length(res1)){
     day1=res1[[da]]
@@ -73,7 +73,7 @@ for(ny in 4:6){#for 3 technology
   myimp = matrix(f1, nr=3)# for given ny
   rownames(myimp) = c("net_size1","net_size2","net_size3")
   
-  plot(myimp[1,], type="l", ylim = c(-10,10), col="blue", xlab="Day", ylab = "GI",lwd=2,main=coname[ny])
+  plot(myimp[1,], type="l", ylim = c(-8,8), col="blue", xlab="Day", ylab = "GI",lwd=2,main=coname[ny])
   lines(myimp[2,], col="red",lwd=2)
   lines(myimp[3,], col="grey",lwd=1)
 }
@@ -86,3 +86,10 @@ for(da in 1:length(res1)){
 
 ###the effect of order imbalance
 myplot11(29,1)
+
+par(mfrow=c(3,3))
+for(da in 17:19){
+  myplot11(da, 7)
+  mtext("2016.06.23 (Brexit) ~ 06.27", side = 3, line = -1.25, outer = TRUE, font=2)
+}
+
