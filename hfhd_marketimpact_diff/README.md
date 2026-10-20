@@ -9,7 +9,7 @@ Name of Quantlet: hfhd_marketimpact_diff
 
 Published in: Bootstrapped Market Impact with Limit Order Books
 
-Description: hfhd_marketimpact_diff code plots the static and time-varying
+Description: hfhd_marketimpact_diff code plots the static and time-varying net bootstrapped market impact with the estimated GIRF (30 steps ahead forecasts).
 
 Keywords: limit order book, market impact, bootstrapped, plot
 
