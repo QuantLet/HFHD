@@ -9,7 +9,7 @@ Name of Quantlet: hfhd_rob
 
 Published in: Bootstrapped Market Impact with Limit Order Books
 
-Description: hfhd_rob code plots the robust time-varying risk transmission channels
+Description: hfhd_rob code plots the robust time-varying risk transmission channels within the selected industry sector.
 
 Keywords: limit order book, market impact, bootstrapped, plot
 
