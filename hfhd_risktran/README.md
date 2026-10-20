@@ -9,7 +9,7 @@ Name of Quantlet: hfhd_risktran
 
 Published in: Bootstrapped Market Impact with Limit Order Books
 
-Description: hfhd_risktran code plots the risk transmission channels
+Description: hfhd_risktran code plots the risk transmission channels within the selected industry sector.
 
 Keywords: limit order book, market impact, bootstrapped, plot
 
