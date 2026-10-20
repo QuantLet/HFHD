@@ -9,7 +9,7 @@ Name of Quantlet: hfhd_marketimpact
 
 Published in: Bootstrapped Market Impact with Limit Order Books
 
-Description: hfhd_marketimpact code plots the bootstrapped market
+Description: hfhd_marketimpact code plots the bootstrapped market impact with the estimated GIRF (30 steps ahead forecasts).
 
 Keywords: limit order book, market impact, bootstrapped, plot
 
