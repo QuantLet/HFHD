@@ -9,7 +9,7 @@ Name of Quantlet: hfhd_tvnet
 
 Published in: Bootstrapped Market Impact with Limit Order Books
 
-Description: hfhd_tvnet code plots the time-varying full-sample
+Description: hfhd_tvnet code plots the time-varying full-sample connectedness network.
 
 Keywords: limit order book, interconnection, network, plot
 
@@ -17,7 +17,7 @@ Author: Shi Chen
 
 Submitted: 2017/09/11
 
-Output: The network graph of full-sample time-varying connectedness
+Output: The network graph of full-sample time-varying connectedness for the selected trading day.
 
 ```
 <div align="center">
